@@ -4,7 +4,8 @@ body {
   dark:(bg-gray-900 text-gray-300)
   transition-all duration-500;
   a {
-    @apply text-indigo-500 font-semibold;
+    @apply
+    text-green-500 font-semibold underline;
   }
 }
 .prose {
@@ -13,19 +14,22 @@ body {
   transition-all duration-500;
   a {
     @apply
-    no-underline font-normal hover:underline
+    underline font-normal
     text-indigo-700 dark:text-indigo-300
+    hover:text-green-500
     transition-all duration-500;
-    code {
-      @apply text-indigo-700 dark:text-indigo-300;
+    code, strong {
+      @apply
+      text-indigo-700 dark:text-indigo-300
+      hover:text-green-500;
     }
   }
-  & h1, & h2, & h3, & h4, & h5, & h6,
-  & code, & ol li:before, & strong, & blockquote {
+  h1, h2, h3, h4, h5, h6,
+  code, ol li:before, strong, blockquote {
     @apply text-gray-700 dark:text-gray-300
     transition-all duration-500;
   }
-  & h2, & h3, & h4, & h5, & h6 {
+  h2, h3, h4, h5, h6 {
     @apply align-middle;
     scroll-margin-top: 8rem;
     a.anchor {
@@ -36,7 +40,7 @@ body {
       hover:(text-indigo-700 dark:text-indigo-300);
     }
   }
-  & code, & blockquote {
+  code, blockquote {
     @apply
     p-1 rounded bg-gray-200 text-gray-700
     dark:(bg-gray-800 text-gray-300)

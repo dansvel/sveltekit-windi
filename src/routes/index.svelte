@@ -59,6 +59,8 @@ pnpx degit <a href="https://github.com/dansvel/sveltekit-windicss">dansvel/svelt
     <li>dark mode for Windi typography plugin</li>
   </ul>
 
-
+  <a href="https://github.com/dansvel/sveltekit-windi">
+    <strong>Go to Repo</strong>
+  </a>
 
 </div>
