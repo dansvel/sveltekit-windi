@@ -1,0 +1,47 @@
+{
+  "0 debug pnpm:scope": {
+    "selected": 1
+  },
+  "1 debug pnpm:package-manifest": {
+    "initial": {
+      "name": "SvelteKit-WindiCSS",
+      "version": "0.0.1",
+      "author": "https://github.com/dansvel",
+      "scripts": {
+        "dev": "svelte-kit dev",
+        "build": "svelte-kit build",
+        "preview": "svelte-kit preview"
+      },
+      "devDependencies": {
+        "@sveltejs/adapter-static": "next",
+        "@sveltejs/kit": "next",
+        "svelte": "^3.34.0",
+        "svelte-preprocess": "^4.7.3",
+        "svelte-windicss-preprocess": "^4.0.8",
+        "vite": "^2.3.7",
+        "vite-plugin-windicss": "next"
+      },
+      "type": "module"
+    },
+    "prefix": "C:\\Users\\hp\\www\\svelwind"
+  },
+  "2 debug pnpm:context": {
+    "currentLockfileExists": false,
+    "storeDir": "C:\\Users\\hp\\.pnpm-store\\v3",
+    "virtualStoreDir": "C:\\Users\\hp\\www\\svelwind\\node_modules\\.pnpm"
+  },
+  "3 debug pnpm:stage": {
+    "prefix": "C:\\Users\\hp\\www\\svelwind",
+    "stage": "resolution_started"
+  },
+  "4 error pnpm": {
+    "code": "ERR_PNPM_SPEC_NOT_SUPPORTED_BY_ANY_RESOLVER",
+    "pkgsStack": [],
+    "err": {
+      "name": "Error",
+      "message": "windicss/plugin/typography isn't supported by any available resolver.",
+      "code": "ERR_PNPM_SPEC_NOT_SUPPORTED_BY_ANY_RESOLVER",
+      "stack": "Error: windicss/plugin/typography isn't supported by any available resolver.\n    at Object.resolve (C:\\Users\\hp\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.7.6\\node_modules\\pnpm\\dist\\pnpm.cjs:79357:17)\n    at async run (C:\\Users\\hp\\AppData\\Roaming\\npm\\pnpm-global\\5\\node_modules\\.pnpm\\pnpm@6.7.6\\node_modules\\pnpm\\dist\\pnpm.cjs:65440:23)"
+    }
+  }
+}
