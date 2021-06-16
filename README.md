@@ -1,4 +1,4 @@
-# SvelteKit ❤️ WindiCSS template
+# SvelteKit ❤️ Windi template
 
 ## Specification
 - @sveltejs/kit: "next" (1.0.0-next.115)
@@ -11,7 +11,8 @@
 - dark mode for Windi typography plugin
 
 ## Demo
-![]()
+![Sveltekit ❤️ Windi](static/screenshot.png)
+[**Live Demo**](https://sveltekit-windi.netlify.app)
 
 ## Running the project
 
