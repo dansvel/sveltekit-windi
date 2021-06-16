@@ -42,7 +42,7 @@
 
   <pre>
 <code>
-pnpx degit <a href="https://github.com/dansvel/sveltekit-windi">dansvel/sveltekit-windicss</a> myproject
+pnpx degit <a href="https://github.com/dansvel/sveltekit-windi">dansvel/sveltekit-windi</a> myproject
 </code>
   </pre>
   <h3>Specification : </h3>
