@@ -2,7 +2,7 @@
 
 ## Specification
 - @sveltejs/kit: "next" (1.0.0-next.115)
-- vite-plugin-windicss: "next" (0.16.0-beta.23)
+- vite-plugin-windicss: "^1.0.0" (1.0.4)
 - @sveltejs/adapter-static: "next" (1.0.0-next.13)
 
 ## Features

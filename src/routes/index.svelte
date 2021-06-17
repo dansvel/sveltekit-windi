@@ -48,7 +48,7 @@ pnpx degit <a href="https://github.com/dansvel/sveltekit-windi">dansvel/svelteki
   <h3>Specification : </h3>
   <ul>
     <li>@sveltejs/kit: "next" (1.0.0-next.115)</li>
-    <li>vite-plugin-windicss: "next" (0.16.0-beta.23)</li>
+    <li>vite-plugin-windicss: "^1.0.0" (1.0.4)</li>
     <li>@sveltejs/adapter-static: "next" (1.0.0-next.13)</li>
   </ul>
 
