@@ -1,4 +1,4 @@
-# SvelteKit ❤️ Windi template
+# SvelteKit ❤️ Windi CSS template
 
 ## Specification
 - @sveltejs/kit: "next" (1.0.0-next.115)
@@ -8,10 +8,10 @@
 ## Features
 - store using localstorage for theme
 - dark mode correctly before everything get rendered
-- dark mode for Windi typography plugin
+- dark mode for Windi CSS typography plugin
 
 ## Demo
-![Sveltekit ❤️ Windi](static/screenshot.png)
+![Sveltekit ❤️ Windi CSS](static/screenshot.png)
 [**Live Demo**](https://sveltekit-windi.netlify.app)
 
 ## Running the project
