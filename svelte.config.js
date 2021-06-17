@@ -6,10 +6,9 @@ import staticSite from '@sveltejs/adapter-static'
 const config = {
   preprocess: [
     preprocess(),
-    // windi
   ],
-	kit: {
-		target: '#svelte',
+  kit: {
+    target: '#svelte',
     adapter: staticSite(),
     vite: () => ({
       plugins: [
@@ -18,7 +17,7 @@ const config = {
         })
       ]
     })
-	}
+  }
 };
 
 export default config;
