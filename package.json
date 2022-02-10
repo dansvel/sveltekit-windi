@@ -12,14 +12,15 @@
   "devDependencies": {
     "@sveltejs/adapter-static": "next",
     "@sveltejs/kit": "next",
-    "eslint": "^7.32.0",
+    "eslint": "^8.8.0",
     "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-svelte3": "^3.2.1",
     "prettier": "^2.4.1",
     "prettier-plugin-svelte": "^2.4.0",
     "svelte": "^3.44.0",
     "svelte-preprocess": "^4.10.3",
-    "vite-plugin-windicss": "^1.7.0"
+    "vite-plugin-windicss": "^1.7.0",
+    "windicss": "^3.4.3"
   },
   "type": "module"
 }
