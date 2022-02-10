@@ -2,7 +2,5 @@ import typhography from 'windicss/plugin/typography'
 
 export default {
   darkMode: 'class',
-  plugins: [
-    typhography,
-  ],
+  plugins: [typhography({ dark: true })]
 }

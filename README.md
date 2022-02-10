@@ -1,17 +1,25 @@
 # SvelteKit ❤️ Windi CSS template
 
 ## Specification
-- @sveltejs/kit: "next" (1.0.0-next.115)
-- vite-plugin-windicss: "^1.0.0" (1.0.4)
-- @sveltejs/adapter-static: "next" (1.0.0-next.13)
+
+- @sveltejs/adapter-static 1.0.0-next.27
+- @sveltejs/kit 1.0.0-next.263
+- svelte 3.46.4
+- svelte-preprocess 4.10.3
+- vite-plugin-windicss 1.7.0
 
 ## Features
-- store using localstorage for theme
-- dark mode correctly before everything get rendered
-- dark mode for Windi CSS typography plugin
+
+- Store using localstorage for theme
+- Dark mode correctly before everything get rendered
+- Dark mode for Windi CSS typography plugin
+- Prettier
+- ESlint
 
 ## Demo
-![Sveltekit ❤️ Windi CSS](static/screenshot.png)
+
+![Sveltekit ❤️ Windi CSS](https://cdn.statically.io/screenshot/full=true/sveltekit-windi.netlify.app)
+
 [**Live Demo**](https://sveltekit-windi.netlify.app)
 
 ## Running the project

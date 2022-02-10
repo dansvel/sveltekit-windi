@@ -1,88 +1,35 @@
 body {
-  @apply
-  bg-gray-100 text-gray-700
+  @apply bg-gray-100 text-gray-700
   dark:(bg-gray-900 text-gray-300)
-  transition-all duration-500;
-  a {
-    @apply
-    text-green-500 font-semibold underline;
+  transition-color duration-500;
+
+  > div > main {
+    @apply p-8 max-w-4xl mx-auto;
   }
 }
+
 .prose {
-  @apply
-  text-gray-700 dark:text-gray-300
-  transition-all duration-500;
-  a {
-    @apply
-    underline font-normal
-    text-indigo-700 dark:text-indigo-300
-    hover:text-green-500
-    transition-all duration-500;
-    code, strong {
-      @apply
-      text-indigo-700 dark:text-indigo-300
-      hover:text-green-500;
-    }
-  }
-  h1, h2, h3, h4, h5, h6,
-  code, ol li:before, strong, blockquote {
-    @apply text-gray-700 dark:text-gray-300
-    transition-all duration-500;
-  }
-  h2, h3, h4, h5, h6 {
-    @apply align-middle;
-    scroll-margin-top: 8rem;
-    a.anchor {
-      @apply
-      inline-block text-gray-500
-      h-4 w-4 self-center align-middle -mt-1 -ml-7 mr-1
-      no-underline shadow-none
-      hover:(text-indigo-700 dark:text-indigo-300);
-    }
-  }
-  code, blockquote {
-    @apply
-    p-1 rounded bg-gray-200 text-gray-700
-    dark:(bg-gray-800 text-gray-300)
-    transition-all duration-500;
-    &::before, &::after {
+  code,
+  blockquote {
+    &::before,
+    &::after {
       content: '';
     }
   }
   pre {
-    @apply
-    bg-gray-200 dark:bg-gray-800
-    transition-all duration-500;
+    @apply bg-gray-200 dark:bg-gray-800
+    transition-color duration-500;
     code {
-      @apply
-      text-gray-700
-      dark:(bg-opacity-0 text-gray-300);
-    }
-  }
-  figure {
-    img {
-      @apply mx-auto;
-    }
-    figcaption {
-      @apply
-      text-base text-center
-      text-gray-700 dark:text-gray-300
-      transition-all duration-500;
+      @apply text-gray-700
+      dark:text-gray-300;
     }
   }
   blockquote {
-    @apply
-    border-gray-700 dark:border-gray-300
-    transition-all duration-500;
-  }
-  hr {
-    @apply
-    border-gray-200 dark:border-gray-800
-    transition-all duration-500;
+    @apply border-gray-700 dark:border-gray-300
+    transition-color duration-500;
   }
   ul li:before {
-    @apply
-    bg-gray-300 dark:bg-gray-700
-    transition-all duration-500;
+    @apply bg-gray-300 dark:bg-gray-700
+    transition-color duration-500;
   }
 }
